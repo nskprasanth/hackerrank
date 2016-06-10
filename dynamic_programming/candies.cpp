@@ -32,7 +32,7 @@ int main() {
       candies[i] = max(candies[i], candies[i+1]+1);
     }
   }
-  int sum = 0;
+  unsigned long long sum = 0;
   for (int i=0;i<n;++i) {
     sum+=candies[i];
   }
